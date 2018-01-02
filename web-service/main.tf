@@ -35,7 +35,6 @@ variable "image_version" {
   default     = "latest"
 }
 
-
 variable "subnet_ids" {
   description = "Comma separated list of subnet IDs that will be passed to the ELB module"
 }
